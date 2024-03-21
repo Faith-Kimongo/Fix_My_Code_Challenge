@@ -26,41 +26,9 @@ int main(void)
     delete_dnodeint_at_index(&head, 0);
     print_dlistint(head);
     printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
+    delete_dnodeint_at_index(&head, 100); /* This is beyond the length of the list*/
     print_dlistint(head);
     printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
     free_dlistint(head); /* Pass the address of the head pointer*/
     return (0);
 }
