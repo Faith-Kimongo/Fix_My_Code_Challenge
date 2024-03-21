@@ -7,19 +7,19 @@
  *
  * @h: A pointer to the first element of a list
  *
- * Return: The number of element printed
+ * Return: The number of elements printed
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-    size_t n;  /* Variable to store the number of elements printed */
+    size_t count = 0;
 
-    n = 0;
-    while (h)
+    while (h != NULL)
     {
         printf("%d\n", h->n);
         h = h->next;
-        n++;
+        count++;
     }
-    return (n);
+
+    return (count);
 }
 

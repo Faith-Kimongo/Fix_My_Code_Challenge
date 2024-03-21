@@ -26,10 +26,10 @@ int main(void)
     delete_dnodeint_at_index(&head, 0);
     print_dlistint(head);
     printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 100); /* This is beyond the length of the list*/
+    delete_dnodeint_at_index(&head, 100); /* Attempt to delete beyond the length of the list*/
     print_dlistint(head);
     printf("-----------------\n");
-    free_dlistint(head); /* Pass the address of the head pointer*/
+    free_dlistint(head);
     return (0);
 }
 
